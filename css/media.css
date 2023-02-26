@@ -1,0 +1,43 @@
+#header-img {
+    display: inline;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-link {
+    display: block;
+    padding: 5px;
+    margin: 7px;
+    width: 80%;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+#header-img{
+    float: left;
+}
+
+#nav-bar {
+    float: right;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pricing > div {
+    color: black;
+    padding: 0 auto;
+    margin: 1%;
+    border: 1px solid;
+    align-items: center;
+}
